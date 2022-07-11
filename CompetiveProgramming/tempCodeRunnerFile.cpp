@@ -1,3 +1,3 @@
- for(auto each : sizeSuitable) {
+  for(auto each : gondolas) {
         cout << each << " ";
     }

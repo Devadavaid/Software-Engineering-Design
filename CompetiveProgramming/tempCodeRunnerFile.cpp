@@ -1,3 +1,3 @@
-  for(auto each : gondolas) {
-        cout << each << " ";
+   for(auto each : position) {
+        cout << each << "\n";
     }

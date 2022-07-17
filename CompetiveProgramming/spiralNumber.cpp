@@ -17,17 +17,13 @@ int main() {
     ios::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
-
     ll n;
     cin >> n;
     ll position;
     ll diagonal;
-
-
     // y is row and x is column
     ll y, x;
     for(ll i = 0; i < n; i++) {
-        // 9 -- 25
         cin >> y >> x;
         if(x == 1 && y == 1) {
             position = 1;
